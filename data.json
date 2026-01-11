@@ -1,0 +1,113 @@
+{
+  "branches": [
+    {
+      "id": 1,
+      "name": "مطعم بريست - فرع الريان",
+      "items": [
+        { "name": "البنك (مدى/انماء)", "foodics": 53398.0, "actual": 53437.5, "details": [] },
+        { "name": "تطبيق جاهز", "foodics": 85084.8, "actual": 85085.8, "details": [] },
+        { "name": "تطبيق نون", "foodics": 2928.0, "actual": 2928.0, "details": [] },
+        {
+          "name": "تطبيق ذا شيفز",
+          "foodics": 20728.0,
+          "actual": 20556.0,
+          "details": [
+            { "date": "2024-01-15", "note": "خصم حملة يناير", "amount": -100 },
+            { "date": "2024-01-20", "note": "عمولة استرجاع طلب #442", "amount": -72 }
+          ]
+        },
+        { "name": "تطبيق بريست", "foodics": 16052.55, "actual": 16052.55, "details": [] },
+        { "name": "هنقرستيشن", "foodics": 28351.0, "actual": 28288.0, "details": [] },
+        { "name": "كيتا", "foodics": 94335.75, "actual": 0, "details": [] },
+        { "name": "كاش", "foodics": 7867.0, "actual": 0, "details": [] }
+      ]
+    },
+
+    {
+      "id": 2,
+      "name": "مطعم بريست - فرع الفلاح",
+      "items": [
+        { "name": "البنك (مدى/انماء)", "foodics": 28457.5, "actual": 28462.5, "details": [] },
+        { "name": "تطبيق جاهز", "foodics": 61550.6, "actual": 61550.6, "details": [] },
+        { "name": "تطبيق نون", "foodics": 430.0, "actual": 430.0, "details": [] },
+        { "name": "تطبيق ذا شيفز", "foodics": 12131.0, "actual": 12100.0, "details": [] },
+        { "name": "تطبيق بريست", "foodics": 43626.5, "actual": 43626.5, "details": [] },
+        { "name": "هنقرستيشن", "foodics": 18067.0, "actual": 18067.0, "details": [] },
+        { "name": "كيتا", "foodics": 73346.75, "actual": 0, "details": [] },
+        { "name": "كاش", "foodics": 5334.0, "actual": 0, "details": [] }
+      ]
+    },
+
+    {
+      "id": 3,
+      "name": "مطعم بريست - فرع اشبيلية",
+      "items": [
+        { "name": "البنك (مدى/انماء)", "foodics": 29666.0, "actual": 29666.0, "details": [] },
+        { "name": "تطبيق جاهز", "foodics": 59017.5, "actual": 59017.5, "details": [] },
+        { "name": "تطبيق نون", "foodics": 1832.0, "actual": 1832.0, "details": [] },
+        { "name": "تطبيق ذا شيفز", "foodics": 16846.0, "actual": 16846.0, "details": [] },
+        { "name": "تطبيق بريست", "foodics": 10411.0, "actual": 10411.0, "details": [] },
+        { "name": "هنقرستيشن", "foodics": 21822.0, "actual": 21822.0, "details": [] },
+        { "name": "كيتا", "foodics": 129723.1, "actual": 0, "details": [] },
+        { "name": "كاش", "foodics": 4822.5, "actual": 0, "details": [] }
+      ]
+    },
+
+    {
+      "id": 4,
+      "name": "مطعم بريست - فرع التعاون",
+      "items": [
+        { "name": "البنك (مدى/انماء)", "foodics": 35290.3, "actual": 35294.8, "details": [] },
+        { "name": "تطبيق جاهز", "foodics": 64726.2, "actual": 64731.2, "details": [] },
+        { "name": "تطبيق نون", "foodics": 1686.0, "actual": 1686.0, "details": [] },
+        { "name": "تطبيق ذا شيفز", "foodics": 13329.0, "actual": 13336.0, "details": [] },
+        { "name": "تطبيق بريست", "foodics": 30925.35, "actual": 31004.65, "details": [] },
+        { "name": "هنقرستيشن", "foodics": 19062.0, "actual": 19036.0, "details": [] },
+        { "name": "كيتا", "foodics": 109373.4, "actual": 0, "details": [] },
+        { "name": "كاش", "foodics": 4213.2, "actual": 0, "details": [] }
+      ]
+    },
+
+    {
+      "id": 5,
+      "name": "مطعم بريست - فرع العارض",
+      "items": [
+        { "name": "البنك (مدى/انماء)", "foodics": 36210.0, "actual": 36183.0, "details": [] },
+        { "name": "تطبيق جاهز", "foodics": 65528.3, "actual": 65492.3, "details": [] },
+        { "name": "تطبيق ذا شيفز", "foodics": 13445.0, "actual": 13445.0, "details": [] },
+        { "name": "تطبيق بريست", "foodics": 21448.1, "actual": 21782.0, "details": [] },
+        { "name": "هنقرستيشن", "foodics": 19343.0, "actual": 19343.0, "details": [] },
+        { "name": "كيتا", "foodics": 122761.55, "actual": 0, "details": [] },
+        { "name": "كاش", "foodics": 3486.5, "actual": 0, "details": [] }
+      ]
+    },
+
+    {
+      "id": 6,
+      "name": "مطعم بريست - فرع النسيم",
+      "items": [
+        { "name": "البنك (مدى/انماء)", "foodics": 12443.0, "actual": 12443.0, "details": [] },
+        { "name": "تطبيق جاهز", "foodics": 27067.8, "actual": 27067.7, "details": [] },
+        { "name": "تطبيق ذا شيفز", "foodics": 8568.0, "actual": 8568.0, "details": [] },
+        { "name": "تطبيق بريست", "foodics": 3747.1, "actual": 3747.1, "details": [] },
+        { "name": "هنقرستيشن", "foodics": 10632.0, "actual": 10695.0, "details": [] },
+        { "name": "كيتا", "foodics": 75835.15, "actual": 0, "details": [] },
+        { "name": "كاش", "foodics": 3940.0, "actual": 0, "details": [] }
+      ]
+    },
+
+    {
+      "id": 7,
+      "name": "مطعم بريست - فرع العقيق",
+      "items": [
+        { "name": "البنك (مدى/انماء)", "foodics": 23369.5, "actual": 23383.5, "details": [] },
+        { "name": "تطبيق جاهز", "foodics": 73770.9, "actual": 73770.9, "details": [] },
+        { "name": "تطبيق ذا شيفز", "foodics": 20363.0, "actual": 20363.0, "details": [] },
+        { "name": "تطبيق بريست", "foodics": 6630.4, "actual": 6630.4, "details": [] },
+        { "name": "هنقرستيشن", "foodics": 8972.0, "actual": 8972.0, "details": [] },
+        { "name": "كيتا", "foodics": 65659.45, "actual": 0, "details": [] },
+        { "name": "كاش", "foodics": 2861.0, "actual": 0, "details": [] }
+      ]
+    }
+  ]
+}
