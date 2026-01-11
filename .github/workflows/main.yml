@@ -1,0 +1,32 @@
+name: Update data.json
+
+on:
+  repository_dispatch:
+    types: [update-data]
+
+jobs:
+  update-file:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Update data.json
+        run: |
+          echo "$PAYLOAD" > data.json
+        env:
+          PAYLOAD: ${{ github.event.client_payload.data }}
+
+      - name: Commit changes
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "brest-report-bot"
+          git add data.json
+          git commit -m "Update data.json via GitHub Action" || echo "No changes"
+          git push
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
