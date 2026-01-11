@@ -106,7 +106,7 @@
 ---------------------------------------------- */
 const GITHUB_USERNAME = "Nutopia-F-B";
 const GITHUB_REPO = "brest-report";
-const GITHUB_TOKEN = "x";
+const GITHUB_TOKEN = import.meta.env.VITE_GITHUB_TOKEN;
 
 async function saveDataToGitHub(newData) {
 
@@ -910,6 +910,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(<App />);
 </script>
 </body>
 </html>
+
 
 
 
