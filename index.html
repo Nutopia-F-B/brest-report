@@ -118,17 +118,17 @@ async function saveDataToGitHub(newData) {
     };
 
     const response = await fetch(
-        `https://api.github.com/repos/${GITHUB_USERNAME}/${GITHUB_REPO}/dispatches`,
-        {
-            method: "POST",
-            headers: {
-                "Accept": "application/vnd.github+json",
-                "Authorization": "Bearer x", // GitHub سيهمل هذه القيمة
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify(payload)
-        }
-    );
+    `https://api.github.com/repos/${GITHUB_USERNAME}/${GITHUB_REPO}/dispatches`,
+    {
+        method: "POST",
+        headers: {
+            "Accept": "application/vnd.github+json",
+            "Authorization": `Bearer ${GITHUB_TOKEN}`,
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(payload)
+    }
+);
 
     if (response.ok) {
         alert("✔️ تم إرسال البيانات إلى GitHub — سيتم التحديث خلال 5 ثواني");
@@ -910,3 +910,4 @@ ReactDOM.createRoot(document.getElementById("root")).render(<App />);
 </script>
 </body>
 </html>
+
